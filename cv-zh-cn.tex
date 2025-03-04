@@ -1,0 +1,81 @@
+% !TeX TS-program = xelatex
+
+\documentclass{resume}
+\ResumeName{向嘉豪}
+
+% 如果想插入照片，请使用以下两个库。
+% \usepackage{graphicx}
+% \usepackage{tikz}
+
+\begin{document}
+
+\ResumeContacts{
+  (+86)130-8728-6239,%
+  \ResumeUrl{mailto:jiahaoxiang2000@gmail.com}{jiahaoxiang2000@gmail.com},%
+  \ResumeUrl{https://github.com/jiahaoxiang2000}{github.com/jiahaoxiang2000} \footnote{下划线内容包含超链接。}%
+}
+
+% 如果想插入照片，请取消此代码的注释。
+% 但是默认不推荐插入照片，因为这不是简历的重点。
+% 如果默认的照片插入格式不能满足你的需求，你可以尝试调整照片的大小，或者使用其他的插入照片的方法。
+% 不然，也可以先渲染 PDF 简历，然后用其他工具在 PDF 上叠加照片。
+% \begin{tikzpicture}[remember picture, overlay]
+%   \node [anchor=north east, inner sep=1cm]  at (current page.north east)
+%      {\includegraphics[width=2cm]{image.png}};
+% \end{tikzpicture}
+
+\ResumeTitle
+
+\section[教育经历]{教育经历\protect\footnote{update: \today}}
+\ResumeItem
+[衡阳师范学院|硕士研究生]
+{衡阳师范学院}
+[\textnormal{电子信息，计算机学院|}  硕士研究生]
+[2023.09—2026.06（预计）]
+
+\ResumeItem
+[长沙学院|本科生]
+{长沙学院}
+[\textnormal{计算机科学与技术，计算机学院|} 工学学士]
+[2017.09—2021.06]
+
+\section[技术能力]{技术能力\protect}
+\begin{itemize}
+  \item \textbf{语言}: 常用 Python, C, \LaTeX； 熟悉 C++, \GrayText{JavaScript}；了解 Rust, Java, \GrayText{TypeScript}。
+  \item \textbf{工作流}: Linux, Shell, Vim，VsCode, Git, GitHub。
+\end{itemize}
+
+% \section{工作经历}
+
+% \ResumeItem{北京 ABCD 有限公司}
+% [后端开发实习生/XXXX]
+% [2020.10—2021.03]
+
+% \begin{itemize}
+%   \item \textbf{独立负责XXX业务后端的设计、开发、测试和部署。}通过 FaaS、Kafka 等平台实现站内信模板渲染服务。向上游提供 SDK 代码，增加或升级了多种离线和在线逻辑。完成了业务对站内信的多样需求。
+%   \item \textbf{参与 XXX 的需求分析，系统技术方案设计；完成需求开发、灰度测试、上线和监控。}
+% \end{itemize}
+\section{论文发表}
+
+\ResumeItem{\textbf{Low-Latency Implementation of Bitsliced SPN-Cipher on IoT Processors}}
+[IEEE Transactions on Computers (CCF-A,一审中), 2025]
+\begin{itemize}
+  \item 该论文提出了一种基于 SPN 密码算法在物联网处理器上的低延迟实现方案。
+  \item 对SPN算法进行了位切片优化，实现了高效的软件实现加速。
+\end{itemize}
+
+\ResumeItem{\textbf{Efficient implementations of CRAFT cipher for Internet of Things}}
+[Computers and Electrical Engineering (中科院三区，已接收), 2024]
+\begin{itemize}
+  \item 该论文提出了一种基于 CRAFT 加密算法在物联网中的高效实现方案，优化了资源使用。
+  \item 实验结果表明，所提方案在性能上优于现有的主流实现。
+\end{itemize}
+
+\section{个人总结}
+
+\begin{itemize}
+  \item 本人乐观开朗、自驱能力强，具有良好的沟通能力和团队合作精神。
+  \item 有两年 Linux 使用经验，较为丰富的软件开发经验、开源项目贡献和维护经验。善于技术写作，持续关注互联网技术发展。
+\end{itemize}
+
+\end{document}
