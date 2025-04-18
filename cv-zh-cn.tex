@@ -4,8 +4,8 @@
 \ResumeName{向嘉豪}
 
 % 如果想插入照片，请使用以下两个库。
-% \usepackage{graphicx}
-% \usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{tikz}
 
 \setCJKmainfont{Kaiti SC}
 
@@ -21,10 +21,10 @@
 % 但是默认不推荐插入照片，因为这不是简历的重点。
 % 如果默认的照片插入格式不能满足你的需求，你可以尝试调整照片的大小，或者使用其他的插入照片的方法。
 % 不然，也可以先渲染 PDF 简历，然后用其他工具在 PDF 上叠加照片。
-% \begin{tikzpicture}[remember picture, overlay]
-%   \node [anchor=north east, inner sep=1cm]  at (current page.north east)
-%      {\includegraphics[width=2cm]{image.png}};
-% \end{tikzpicture}
+\begin{tikzpicture}[remember picture, overlay]
+  \node [anchor=north east, inner sep=1cm]  at (current page.north east)
+  {\includegraphics[width=2cm]{image.jpg}};
+\end{tikzpicture}
 
 \ResumeTitle
 
