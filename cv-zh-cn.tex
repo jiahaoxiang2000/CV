@@ -7,6 +7,8 @@
 % \usepackage{graphicx}
 % \usepackage{tikz}
 
+\setCJKmainfont{Kaiti SC}
+
 \begin{document}
 
 \ResumeContacts{
@@ -26,12 +28,12 @@
 
 \ResumeTitle
 
-\section[教育经历]{教育经历\protect\footnote{update: \today}}
+\section[教育经历]{教育经历}
 \ResumeItem
 [衡阳师范学院|硕士研究生]
 {衡阳师范学院}
-[\textnormal{电子信息，计算机学院|}  硕士研究生]
-[2023.09—2026.06（预计）]
+[\textnormal{电子信息，计算机学院|}  硕士研究生｜师从李浪教授]
+[2023.09—至今]
 
 \ResumeItem
 [长沙学院|本科生]
@@ -41,8 +43,8 @@
 
 \section[技术能力]{技术能力\protect}
 \begin{itemize}
-  \item \textbf{语言}: 常用 Python, C, \LaTeX； 熟悉 Rust, \GrayText{JavaScript}；了解 C++, Java, \GrayText{TypeScript}
-  \item \textbf{工作流}: Linux, Shell, Vim, VsCode, Zed, Git, GitHub
+  \item \textbf{语言}: 常用 C, Python, \LaTeX； 熟悉 Verilog, Assembly, \GrayText{Rust}；了解 C$^{++}$, Java, \GrayText{TypeScript}。
+  \item \textbf{工作流}: Linux, Shell, Vim, VsCode,  Git, GitHub。
 \end{itemize}
 
 % \section{工作经历}
@@ -55,20 +57,24 @@
 %   \item \textbf{独立负责XXX业务后端的设计、开发、测试和部署。}通过 FaaS、Kafka 等平台实现站内信模板渲染服务。向上游提供 SDK 代码，增加或升级了多种离线和在线逻辑。完成了业务对站内信的多样需求。
 %   \item \textbf{参与 XXX 的需求分析，系统技术方案设计；完成需求开发、灰度测试、上线和监控。}
 % \end{itemize}
-\section{论文发表}
+\section{论文发表\protect\footnote{本人一作，修改: \today}}
+
+\ResumeItem{\textbf{Thread-Adaptive: Optimized Parallel Architectures of SLH-DSA on GPUs}}
+[IEEE Transactions on Circuits and Systems II: Express Briefs (已完初稿，拟投), 2025]
+\begin{itemize}
+  \item 该论文为SLH-DSA后量子数字签名算法，提供高吞吐量异构实现方案。
+\end{itemize}
 
 \ResumeItem{\textbf{Low-Latency Implementation of Bitsliced SPN-Cipher on IoT Processors}}
-[IEEE Transactions on Computers (CCF-A,一审中), 2025]
+[IEEE Transactions on Computers (一审中，CCF-A), 2025]
 \begin{itemize}
-  \item 该论文提出了一种基于 SPN 密码算法在物联网处理器上的低延迟实现方案。
-  \item 对SPN算法进行了位切片优化，实现了高效的软件实现加速。
+  \item 该论文为SPN类结构对称加密算法，提供精简指令集上低延迟软件实现方案。
 \end{itemize}
 
 \ResumeItem{\textbf{Efficient implementations of CRAFT cipher for Internet of Things}}
 [Computers and Electrical Engineering, 2024]
 \begin{itemize}
-  \item 该论文提出了一种基于 CRAFT 加密算法在物联网中的高效实现方案，优化了资源使用。
-  \item 实验结果表明，所提方案在性能上优于现有的主流实现。
+  \item 该论文为CRAFT对称加密算法，提供高性能、高性价比和低成本硬件实现方案。
 \end{itemize}
 
 \section{项目经历}
@@ -79,8 +85,8 @@
 \section{个人总结}
 
 \begin{itemize}
-  \item 本人乐观开朗、自驱能力强，具有良好的沟通能力和团队合作精神。
-  \item 有两年 Linux 使用经验，较为丰富的软件开发经验、开源项目贡献和维护经验。善于技术写作，持续关注互联网技术发展。
+  \item 性格： 本人乐观开朗、自驱能力强，具有较好的沟通能力和很强的团队合作精神。
+  \item 研究展望：为理论安全的密码算法提供高性能和实现安全方案，继续从事密码工程学研究。
 \end{itemize}
 
 \end{document}
