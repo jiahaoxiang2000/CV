@@ -38,7 +38,7 @@
 
 #resume-project(
   title: "Thread-Adaptive: Optimized Parallel Architectures of SLH-DSA on GPUs",
-  duty: "IEEE Computer Architecture Letters (一审中), 2025",
+  duty: "IEEE Computer Architecture Letters (二审中), 2025",
 )[
   - SLH-DSA后量子数字签名算法，提供高吞吐量异构实现方案。
 ]
@@ -52,7 +52,7 @@
 
 #resume-project(
   title: "Efficient implementations of CRAFT cipher for Internet of Things",
-  duty: "Computers and Electrical Engineering, 2024",
+  duty: "Computers and Electrical Engineering (中科院三区), 2024",
 )[
   - CRAFT对称加密算法，提供高性能、高性价比和低成本硬件实现方案。
 ]
@@ -63,7 +63,7 @@
   title: "湖南省研究生科研创新项目《轻量级分组密码的软硬件优化研究与实现》",
   duty: "CX20240977",
   start: "2024",
-  end: "至今",
+  end: "2025",
 )[
 ]
 
