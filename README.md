@@ -2,7 +2,7 @@
 
 A [Typst][typst] resume designed for optimal information density and aesthetic appeal.
 
-一个旨在实现最佳的信息密度和美学吸引力的 [resume-ng-typst][https://github.com/fky2015/resume-ng-typst] 简历排版模板项目。
+一个旨在实现最佳的信息密度和美学吸引力的 [resume-ng-typst](https://github.com/fky2015/resume-ng-typst) 简历排版模板项目。
 
 ![resume-ng-typst](https://github.com/fky2015/resume-ng-typst/assets/16451516/16c3ddf9-5014-4435-bd3f-c48c7f5c09d1)
 
