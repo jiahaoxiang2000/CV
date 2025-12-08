@@ -10,6 +10,17 @@
   ),
 )
 
+// Override template's font settings - must come AFTER show: project
+#set text(
+  font: "Source Han Serif", // Primary Chinese serif font for main content
+  lang: "zh",
+  region: "cn",
+)
+
+#show heading: set text(
+  font: "Source Han Sans", // Sans-serif font for headings
+)
+
 #resume-section("教育经历")
 #resume-education(
   university: "衡阳师范学院",
@@ -37,17 +48,17 @@
 #resume-section[论文发表#footnote[本人一作，修改: #datetime.today().display()]]
 
 #resume-project(
-  title: "Thread-Adaptive: Optimized Parallel Architectures of SLH-DSA on GPUs",
-  duty: "IEEE Computer Architecture Letters (二审中), 2025",
+  title: "Low-Latency Implementation of Bitsliced SPN-Cipher on IoT Processors",
+  duty: "IEEE Transactions on Computers (CCF-A), 2025",
 )[
-  - SLH-DSA后量子数字签名算法，提供高吞吐量异构实现方案。
+  - SPN类结构对称加密算法，提供精简指令集上低延迟软件实现方案。
 ]
 
 #resume-project(
-  title: "Low-Latency Implementation of Bitsliced SPN-Cipher on IoT Processors",
-  duty: "IEEE Transactions on Computers (二审中，CCF-A), 2025",
+  title: "Thread-Adaptive: Optimized Parallel Architectures of SLH-DSA on GPUs",
+  duty: "IEEE Computer Architecture Letters, 2025",
 )[
-  - SPN类结构对称加密算法，提供精简指令集上低延迟软件实现方案。
+  - SLH-DSA后量子数字签名算法，提供高吞吐量异构实现方案。
 ]
 
 #resume-project(
